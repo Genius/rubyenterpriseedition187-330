@@ -1,3 +1,8 @@
+Fri Nov 22 12:46:08 2013  Nobuyoshi Nakada  <nobu@ruby-lang.org>
+
+	* util.c (ruby_strtod): ignore too long fraction part, which does not
+	  affect the result.
+
 Wed Dec 28 21:34:23 2011  URABE Shyouhei  <shyouhei@ruby-lang.org>
 
 	* string.c (rb_str_hash): randomize hash to avoid algorithmic

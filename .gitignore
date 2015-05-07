@@ -45,6 +45,7 @@ ext/dl/cbtable.func
 ext/dl/dlconfig.h
 ext/dl/dlconfig.rb
 ext/openssl/extconf.h
+ext/tk/config_list
 ext/win32ole/.document
 distro/version.txt
 distro/documentation.html
